@@ -1,4 +1,5 @@
-﻿Console.Write("What is your name ?");
+﻿// hello user name
+Console.Write("What is your name ?");
 // просим юзера вписаь своё имя
 string username = Console.ReadLine();
 // сохраняем тот что ввел в username
