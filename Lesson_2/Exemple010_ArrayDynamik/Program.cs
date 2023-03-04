@@ -9,7 +9,6 @@
     }
 
 }
-
 void PrintArray(int[] myArray)
 {
     int length = myArray.Length;
