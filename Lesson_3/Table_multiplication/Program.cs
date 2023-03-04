@@ -3,7 +3,8 @@ for (int i = 2; i <= 10; i++)
 {
     for (int j = 2; j <= 10; j++)
     {
-        Console.Write($" {i} x {j} = {i * j} ");
+        Console.Write($" {i} x {j} = {i * j} ");// печатает в 10 столбов таблицу !!!
+                                                 // райтлайн печать в один столб
     }
- Console.WriteLine();
+ Console.WriteLine();  // это нужно обязательно для разделения столбов
 }
