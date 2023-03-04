@@ -12,5 +12,5 @@ string Method4(int count, string text)
     return res;
 }
  
-string resault = Method4(text:"z",count:5); // ловим в ресаулт работу метода , передаем ему аргументы
+string resault = Method4(text:"z",count:5); //  ловим в ресаулт работу метода , передаем ему аргументы
  Console.Write(resault);
