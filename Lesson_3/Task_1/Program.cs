@@ -13,19 +13,19 @@ string text = "— Я думаю, — сказал князь, улыбаясь,
 
 string  ChangSim(string text, char oldVal, char newVal)
 {
-    string res = string.Empty;
-    int len = text.Length;
-    for (int i = 0; i < len; i++)
+    string res = string.Empty;  //пременная для результата = пусая
+    int len = text.Length;      // длинна текста сколько раз будем бегать
+    for (int i = 0; i < len; i++)  // цикл фор
     {
-        if (text[i] == oldVal)
+        if (text[i] == oldVal)  // если символ по порядку равен заданному значению
         {
-            res = res + $"{newVal}";
+            res = res + $"{newVal}"; // меняем на новое
              }
         else
-                res = res + $"{text[i]}";
+                res = res + $"{text[i]}"; // или оставим старое
         
     }
-       return res;
+       return res; //вернем результат
   }
 
 string NewText = ChangSim(text, ' ', '|');
